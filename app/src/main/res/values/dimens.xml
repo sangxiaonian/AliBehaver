@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_cut_big">10dp</dimen>
+    <dimen name="home_title_ends">10dp</dimen>
+</resources>

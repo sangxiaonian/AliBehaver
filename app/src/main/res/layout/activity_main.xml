@@ -1,0 +1,212 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:background="@color/bg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:id="@+id/ll_et"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_marginLeft="@dimen/app_cut_big"
+                android:layout_marginRight="@dimen/home_title_ends"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:id="@+id/tv_search"
+                    android:padding="5dp"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@mipmap/search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/app_name"
+                    android:background="#22ffffff" />
+
+
+                <ImageButton
+                    android:paddingStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:src="@mipmap/add" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/rl_bicon1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+                <android.support.v4.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4" />
+                <Button
+                    android:id="@+id/bt_scan"
+                    style="@style/main_rb"
+                    android:drawableTop="@mipmap/main_scan"
+                    android:text="扫一扫"/>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/bt_pay"
+                    style="@style/main_rb"
+                    android:drawableTop="@mipmap/main_pay"
+                    android:text="付款" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/bt_receive"
+                    style="@style/main_rb"
+                    android:drawableTop="@mipmap/main_recive"
+                    android:text="收款" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    style="@style/main_rb"
+                    android:id="@+id/bt_wallet"
+                    android:drawableTop="@mipmap/main_card_bag"
+                    android:text="卡包" />
+                <android.support.v4.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4" />
+
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_icon"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="false"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/img_main_scan_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/main_scan" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+            <ImageButton
+                android:id="@+id/img_main_pay_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/main_pay" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+            <ImageButton
+                android:id="@+id/img_main_recive_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/main_recive" />
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+            <ImageButton
+                android:id="@+id/img_main_wallet_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/main_card_bag" />
+            <android.support.v4.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1.5" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="@dimen/app_cut_big"
+                android:alpha="0.3"
+                android:background="@color/text_home_item_cut"
+                android:clickable="false"
+                />
+
+            <ImageButton
+                android:id="@+id/img_main_msg_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@mipmap/add" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <em.sang.com.allrecycleview.RefrushRecycleView
+        android:id="@+id/rc_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.xiaonian.sang.alibehaver.CustomBehavior"
+        >
+
+    </em.sang.com.allrecycleview.RefrushRecycleView>
+
+</android.support.design.widget.CoordinatorLayout>

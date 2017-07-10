@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewFractory</string>
+    <string name="showContent">全文</string>
+    <string name="hiden">收起</string>
+</resources>

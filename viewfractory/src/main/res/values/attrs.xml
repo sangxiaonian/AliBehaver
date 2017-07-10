@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--自定义reagioGroup-->
+    <declare-styleable name="MyRadioGroup">
+        <attr name="child_margin_horizontal" format="dimension" />
+        <attr name="child_margin_vertical" format="dimension" />
+        <attr name="child_layout" format="integer" />
+        <attr name="child_count" format="integer" />
+        <attr name="child_values" format="integer" />
+        <attr name="single_choice" format="boolean" />
+        <attr name="gravity" format="integer" />
+    </declare-styleable>
+    
+    <!--自定义进度条-->
+    <declare-styleable name="HorizontalProgress">
+        <attr name="progress_unreached_color" format="color"></attr>
+        <attr name="progress_reached_color" format="color"></attr>
+        <attr name="progress_text_color" format="color"></attr>
+        <attr name="progress_height" format="dimension"></attr>
+        <attr name="progress_text_size" format="dimension"></attr>
+        <attr name="progress_text_offset" format="dimension"></attr>
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBarWidthNumber" >
+        <attr name="RoundProgressBarWidthNumber_radius" format="dimension"/>
+    </declare-styleable>
+
+    <!--可折叠显示的TextView-->
+    <declare-styleable name="FloatView">
+        <!--文字颜色-->
+        <attr name="textColor" format="color"/>
+        <!--正文大小-->
+        <attr name="textSize" format="dimension"/>
+        <!--显示行数-->
+        <attr name="showLines" format="integer"/>
+        <!--折叠提示文字颜色-->
+        <attr name="flowTextColor" format="color"/>
+        <!--折叠提示文字位子大小-->
+        <attr name="flowTextSize" format="dimension"/>
+        <!--折叠提示文字背景-->
+        <attr name="flowBackground" format="reference"/>
+        <!--折叠提示显示全文时候的文字-->
+        <attr name="textShow" format="string"/>
+        <!--折叠提示隐藏部分时候的文字-->
+        <attr name="textHide" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="basic_text">
+
+    </declare-styleable>
+    <!--可以滑动选择的PickerScrollView-->
+    <declare-styleable name="PickerScrollView">
+        private int centerColor,otherColor,lineColor;
+        <!--中间选择的文字的颜色-->
+        <attr name="pv_centerColor" format="color"/>
+
+        <!--其他文字的颜色,会有渐变-->
+        <attr name="pv_otherColor" format="color"/>
+        <!--中间分割线的颜色-->
+        <attr name="pv_lineColor" format="color"/>
+        <!--是否显示中间分割线不可与textsize共用,优先使用textSize-->
+        <attr name="pv_hasLine" format="boolean"/>
+        <!--文字大小-->
+        <attr name="pv_textSize" format="dimension"/>
+
+        <!--是否循环显示数据-->
+        <attr name="pv_isCycle" format="boolean"/>
+        <!--显示行数-->
+        <attr name="pv_showLines" format="integer"/>
+        <!--其他文字相对于中间文字的缩放量-->
+        <attr name="pv_otherTextScral" format="float"/>
+
+    </declare-styleable>
+</resources>

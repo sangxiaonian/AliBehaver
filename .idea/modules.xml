@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AliBehaver.iml" filepath="$PROJECT_DIR$/AliBehaver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/allrecycleview/allrecycleview.iml" filepath="$PROJECT_DIR$/allrecycleview/allrecycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewfractory/viewfractory.iml" filepath="$PROJECT_DIR$/viewfractory/viewfractory.iml" />
+    </modules>
+  </component>
+</project>

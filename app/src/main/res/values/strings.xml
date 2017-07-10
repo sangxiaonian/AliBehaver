@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AliBehaver</string>
+    <string name="phone">手机充值</string>
+    <string name="life_recharge">生活缴费</string>
+    <string name="traffic">交通罚款</string>
+    <string name="tick">飞机票</string>
+    <string name="train">火车票</string>
+    <string name="game_recharge">游戏充值</string>
+    <string name="gas_recharge">加油卡充值</string>
+    <string name="lottery">彩票服务</string>
+    <string name="gongyi">沃富公益</string>
+    <string name="share_media">共享媒体</string>
+    <string name="credit_payment">信用卡还款</string>
+</resources>

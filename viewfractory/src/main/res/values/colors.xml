@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="text_home_item">#404040</color>
+    <color name="text_home_more_text">#303030</color>
+    <color name="text_home_item_time">#afafaf</color>
+    <color name="text_home_item_cut">#efefef</color>
+    <color name="text_card_item_more">#7a7a7a</color>
+    <color name="text_import_item_more">#fa5559</color>
+    <color name="btn_import_item">#52bf7f</color>
+    <color name="set_item">#bdbdbd</color>
+    <color name="loan_item">#1798f2</color>
+
+    <color name="click_item">#f3f3f3</color>
+    <color name="friend_title">#5b6d99</color>
+    <color name="friend_detail">#4c69c5</color>
+    <color name="grey_b2b2b2">#B2B2B2</color>
+    <color name="blue_78d2f6">#78D2F6</color>
+    <color name="blue_01aaee">#01AAEE</color>
+    <color name="blue_00aaee">#00AAEE</color>
+    <color name="red_f3323b">#F3323B</color>
+</resources>
